@@ -1,2 +1,2 @@
 # C_Programming
-Collection of logic programming assignments covering basic to advanced concepts
+Practicing logic building with C programming
