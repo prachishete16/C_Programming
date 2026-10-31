@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+double RectArea(float fwidth, float fheight)
+{
+     double  dArea  = 0.0;
+     dArea = fwidth * fheight;
+     return dArea;
+
+}
+int main()
+{
+    float fValue1 = 0.0 , fValue2 = 0.0; 
+    double dRet = 0.0;
+
+     printf("Enter width: \n");
+     scanf("%f",&fValue1);
+
+     printf("Enter width: \n");
+     scanf("%f",&fValue2);
+
+     dRet = RectArea(fValue1,fValue2);
+
+     printf("Its area is : %lf",dRet);
+
+     return EXIT_SUCCESS;
+}
